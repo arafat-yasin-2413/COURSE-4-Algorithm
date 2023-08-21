@@ -1,0 +1,23 @@
+List 1: (2,3) (3,5) 
+List 2: (5,6) 
+List 3: (4,1) 
+List 4: (6,1) 
+List 5: (6,1) (7,2) 
+List 6: 
+List 7: 
+
+Distance of 1: 0
+Distance of 2: 3
+Distance of 3: 5
+Distance of 4: 6
+Distance of 5: 9
+Distance of 6: 7
+Distance of 7: 11
+
+Visiting node 1: 1
+Visiting node 2: 1
+Visiting node 3: 1
+Visiting node 4: 1
+Visiting node 5: 1
+Visiting node 6: 1
+Visiting node 7: 1

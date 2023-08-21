@@ -1,0 +1,17 @@
+List 1: 0 2 
+List 2: 1 0 3 
+List 3: 2 
+List 4: 5 
+List 5: 4 7 
+List 6: 
+List 7: 5 
+List 8: 9 
+List 9: 8 
+
+Number of Connected Components : 
+4
+
+List 1: 1 0 2 3 
+List 2: 4 5 7 
+List 3: 6 
+List 4: 8 9 

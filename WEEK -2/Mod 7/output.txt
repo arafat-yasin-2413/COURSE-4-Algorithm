@@ -1,0 +1,9 @@
+List 1 : 2 
+List 2 : 1 3 4 
+List 3 : 2 5 
+List 4 : 2 
+List 5 : 3 
+List 6 : 7 8 
+List 7 : 6 8 
+List 8 : 6 7 
+Cycle Detected

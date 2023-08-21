@@ -1,0 +1,40 @@
+List 1: 2 3 10 
+List 2: 1 4 5 
+List 3: 1 9 
+List 4: 2 
+List 5: 2 6 7 
+List 6: 5 8 
+List 7: 5 
+List 8: 6 
+List 9: 3 
+List 10: 1 11 12 
+List 11: 10 
+List 12: 10 
+
+
+Depth of 1: 0
+Depth of 2: 1
+Depth of 3: 1
+Depth of 4: 2
+Depth of 5: 2
+Depth of 6: 3
+Depth of 7: 3
+Depth of 8: 4
+Depth of 9: 2
+Depth of 10: 1
+Depth of 11: 2
+Depth of 12: 2
+
+
+Height of 1: 4
+Height of 2: 3
+Height of 3: 1
+Height of 4: 0
+Height of 5: 2
+Height of 6: 1
+Height of 7: 0
+Height of 8: 0
+Height of 9: 0
+Height of 10: 1
+Height of 11: 0
+Height of 12: 0

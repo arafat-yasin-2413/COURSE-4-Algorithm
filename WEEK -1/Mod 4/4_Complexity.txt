@@ -1,0 +1,67 @@
+
+4(a)
+int count = 0;
+for (int i = n; i > 0; i /= 2) 
+{
+    for (int j = 0; j < n; j+=5) 
+   {
+        count += 1;
+    }
+}
+
+Sol of 4(a):
+
+The outer loop runs (log n) times; where base is 2.
+Because it keeps dividing by 2 after each iteration. Outer loop has O(log (n)) time complexity.
+
+The inner loop runs (n/2) times but we consider it O(n) time complexity.
+
+Therefore, the total time complexity of the given code snippet is : O (nlog(n)). 
+
+
+4(b)
+for(int i =1; i*i<n; i++)
+{
+     cout << “hello”;
+}
+
+Sol of 4(b):
+
+Here the loop is controlled by " i*i < n " means the condition part. The loop will run (sqrt(n)) times.
+
+So time complexity of this code snippet is O(sqrt(n)).
+
+
+
+4(c)
+for(int i =1; i<n; i=i*2)
+{
+   for(int j=1; j*j<n; j+=2)
+  {
+      cout << “hello”;
+   }
+}
+
+Sol of 4(c):
+
+The outer loop has time complexity of O(logn) ; base 2.
+And the inner loop has time complexity of O(sqrt(n)).
+
+Total time complexity of the given code snippet is O(log(n) * sqrt(n)).
+
+
+
+4(d)
+int m = 1;
+for(int i=0; m<=n; i++)
+{
+    m+=i;
+}
+
+Sol of 4(d):
+
+Here, I assumed n = 50. 
+The loop iterates i times. On each iteration m is updating by adding i with it. It will run until it satisfies the condition m<=n . 
+
+After analyzing the loop I have found the time complexity is O(sqrt(n)) for this code snippet.
+
