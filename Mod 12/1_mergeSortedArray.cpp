@@ -65,6 +65,17 @@ void mergeSortedArrays(int arr[],int l, int m, int r)
 
 }
 
+void mergeSort(int a[],int l, int r)
+{
+    if(l<r)
+    {
+        int mid = (l+r)/2;
+        mergeSort(a,l,mid);
+        mergeSort(a,mid+1,r);
+        mergeSortedArrays(a,l,mid,r);
+    }
+}
+
 int main()
 {
     int n; 
