@@ -3,6 +3,7 @@ using namespace std;
 
 int main()
 {
+    // This is merge sort 
     int n; 
     cin >> n ; 
     int a[n];
