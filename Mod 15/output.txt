@@ -1,4 +1,1 @@
-Component 1 : 1 2 
-Component 3 : 3 4 
-Component 5 : 5 
-Total Component -> 3
+8

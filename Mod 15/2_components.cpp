@@ -57,9 +57,9 @@ int main()
     {
         if(!visited[i])
         {
-            
-            dfs(i);
             cnt++;
+            dfs(i);
+            
             cout<<"Component "<<i<<" : ";
             for(int el : comp)
             {
