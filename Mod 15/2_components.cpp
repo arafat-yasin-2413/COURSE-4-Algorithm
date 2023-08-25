@@ -17,6 +17,13 @@ void dfs(int src)
     }
 }
 
+/*
+5 
+2
+1 2
+3 4
+*/
+
 int main()
 {
 
