@@ -49,16 +49,11 @@ void dfs(int si, int sj)
 }
 
 
-/*
-5 8
-########
-#..#...#
-####.#.#
-#..#...#
-########
-*/
 
 /*
+
+// Test case from Asif Mohammad Sifat vaiya (support session)
+
 10 10
 .-..-.--..
 ..--......
