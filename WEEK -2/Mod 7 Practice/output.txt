@@ -1,17 +1,13 @@
-List 1: 0 2 
-List 2: 1 0 3 
-List 3: 2 
-List 4: 5 
-List 5: 4 7 
-List 6: 
-List 7: 5 
-List 8: 9 
-List 9: 8 
-
-Number of Connected Components : 
-4
-
-List 1: 1 0 2 3 
-List 2: 4 5 7 
-List 3: 6 
-List 4: 8 9 
+1 2 3 10 4 5 9 11 12 6 7 8 
+Level of 1: 0
+Level of 2: 1
+Level of 3: 1
+Level of 4: 2
+Level of 5: 2
+Level of 6: 3
+Level of 7: 3
+Level of 8: 4
+Level of 9: 2
+Level of 10: 1
+Level of 11: 2
+Level of 12: 2
