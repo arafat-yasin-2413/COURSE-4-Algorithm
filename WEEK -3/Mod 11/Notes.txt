@@ -1,0 +1,21 @@
+Mod 11-1 Bellman Ford Algorithm Introduction 
+--------------------------------------------    
+    1. Shortest path এ কোনো নোড রিপিটেড হবে না। বরং সব গুলো নোডে সরবোচ্চ একবার 
+        করে যাবে।
+
+    2. Worst case এ source থেকে destination এ যেতে highest (n-1) টা রাস্তা দিয়ে যেতে
+        হবে। মানে src থেকে dest এর মাঝে থাকা সবগুলো রাস্তা দিয়েই যেতে হচ্ছে। 
+        যেখানে n = নোডের সংখ্যা । 
+
+    3. Bellman Ford অ্যালগরিদম প্রত্যেক টা রাস্তাই ধরে ধরে Relax করে। এই Relax করার 
+        কাজটা সবগুলো edge এর জন্য করা হয়। সবগুলো edge কে একবার relax করবো,
+        আবার relax করবো। এভাবে (n-1) বার এই all edge relaxation টা করবো। 
+
+    4. Bellman Ford নেগেটিভ weight cycle এর উপর কাজ করতে পারে না। 
+
+    5. Negative weight cycle ডিটেক্ট করার জন্য (n-1) বার relaxation করার পর 
+        অতিরিক্ত আরো একবার সবগুলো edge কে relax করতে হয়। যদি এইবার relax 
+        করার সময় কোনো নোডের ডিস্ট্যান্স আপডেট হয় তখন আমরা নিশ্চিত হতে পারবো 
+        যে এখানে Negative weight cycle আছে। 
+
+    

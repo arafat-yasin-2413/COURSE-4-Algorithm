@@ -16,7 +16,7 @@ void BellmanFord(int src)
     }
     dist[src] = 0; 
 
-    for(int i = 1; i<n; i++)
+    for(int i = 1; i<m; i++)
     {
         for(auto edge: listOfEdges)
         {
