@@ -1,5 +1,4 @@
-D of 1: 0
-D of 2: 5
-D of 3: 7
-D of 4: 5
-Ther is no Neg. Weight Cycle
+0 3 7 5 
+2 0 6 4 
+3 1 0 5 
+5 3 2 0 
